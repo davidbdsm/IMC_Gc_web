@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Caclular IMC e Peso ideal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+    <script>
+        function pagina(pg){
+          sessionStorage.nome=document.getElementById("nome").value;
+            window.location.assign("p"+pg+".html");
+          }
+        function inicia(){
+            document.getElementById("btnP2").addEventListener("click", function(){
+                pagina(2);
+            });
+          }
+        window.addEventListener("load",inicia);
+    </script>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <body>
+      <main>
+        <div class="container">
+          <div class="title"> Calcule aqui seu IMC </div>
+          <div class="input">
+              <label>Nome:</label>
+              <input type="text" id='nome' placeholder="Digite seu nome">
+          </div>
+          <div class="input">
+              <label>Altura:</label>
+              <input type="number" id='altura'placeholder="Use ponto ou vírgula">
+          </div>
+          <div class="input">
+              <label>Peso:</label>
+              <input type="number" id='peso' placeholder="Digite seu peso">
+          </div>
+          <button id='calcular'>Calcular</button>
+  
+          <div class="result" id='resultado'></div>
+          <button div class="btnP2" id='btnP2'>Clique aqui para calcular a Gordura Corporal</button>
+        </div>
+      </main>
+      <script src="./imc.js"></script>
+    </body>
+  </body>
+</html>
+
+<!--<script>
+        function pagina(pg){
+          sessionStorage.nome=document.getElementById("fnome").value;
+            window.location.assign("p"+pg+".html");
+          }
+        function inicia(){
+            document.getElementById("btnP2").addEventListener("click", function(){
+                pagina(2);
+            });
+          }
+        window.addEventListener("load",inicia);
+    </script>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+        <input type="text" name="fnome" id="fnome" size="15" maxlength="15"><br><br>
+        <button id="btnP2"> butão </button>-->
