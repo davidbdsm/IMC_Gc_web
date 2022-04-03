@@ -1,9 +1,6 @@
 main{
     display: flex;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
-    align-items: center;
   
   }
   
@@ -11,8 +8,8 @@ main{
     display: flex;
     flex-direction: column;
     background: rgb(0, 247, 255);
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 500px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
@@ -122,4 +119,21 @@ main{
   margin-bottom: 30%;
   align-items: center;
   margin-left: 18%;
+ }
+
+ .explicacao {
+  font-size: 83%;
+  margin-top: 6%;
+  margin-bottom: 30%;
+  margin-left: 7%;
+ }
+
+ .OG1 {
+  font-size: 155%;
+ }
+ .OG2 {
+  font-size: 155%;
+ }
+ .OG3 {
+  font-size: 155%;
  }
