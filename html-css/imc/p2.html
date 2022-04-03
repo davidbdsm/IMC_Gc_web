@@ -17,37 +17,41 @@
         <div  id="painel"></div>   
         
         <main>
-          <div class="container">
-           
-            <div class="title"> <div  id="title"> </div>, calcule aqui sua gordura corporal </div>
-            <form>
-              <label class="radio-inline">
-                <input type="radio" name="fem" checked>Masculino
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="masc">Feminino
-            </form>
-            <div class="input">
-                <label>IMC:</label>
-                <input type="text" id='imcgc' placeholder="Digite seu IMC">
-            </div>
-            <div class="input">
-                <label>Idade:</label>
-                <input type="number" id='idadegc'placeholder="Digite sua altura">
-            </div>    
-            <div class="gc" id='gc'></div>
-            <button id='btnGc'>Calcular gordura coporal</button>
-            <div class="resultgc" id='resultadogc'></div>
-          </div>
+            <div class="title"> <div  id="title"> </div>, veja aqui a explicação dos tipos de IMC: </div>
         </main>
+        <div class="explicacao">
+          <h1>  Abaixo do peso</h1>
+          <h3>  Estar abaixo do peso é uma condição em que a pessoa pesa menos do que é considerado adequado para aquela altura, idade e sexo.
+            <p>  Estar abaixo do peso ideal pode ser mais perigoso à saúde do que a obesidade, independentemente de outros fatores de risco, como tabagismo, consumo excessivo de álcool e drogas ou doenças terminais. 
+            </p>
+            <p>No caso dos transtornos alimentares, como bulimia e anorexia nervosa, ainda é indicado o acompanhamento terapêutico. O estresse e a ansiedade também podem afetar a perda de peso, sendo indicadores de que o corpo precisa de tratamento. </p></h3>
+
+            <h1> Peso normal</h1>
+            <h3> Estar dentro da faixa de peso normal é significa ter um peso considerado adequado para sua altura, idade e sexo, de acordo com as faixas do IMC - momento de fazer a manutenção do peso. 
+
+             <p> Para manter o peso é importante manter uma dieta balanceada (não basta alimentos corretos, mas também quantidades corretas) para seu organismo. Devem ser avaliados peso, idade, composição corporal, presença de doenças e/ou comorbidades. Pontos importantes para manter o peso:</p></h3>
+
+             <h1>Sobrepeso</h1>
+              <h3>  
+               <p> Um adulto é considerado com “sobrepeso” quando está acima de seu peso saudável estipulado, que varia de acordo com a altura e sexo de uma pessoa. O sobrepeso é uma condição em que a pessoa pesa mais do que é considerado adequado para aquela altura, idade e sexo. O sedentarismo e os maus hábitos alimentares levam ao aumento dessa parcela de indivíduos com sobrepeso a cada ano.
+               
+               </p></h3>
+
+             <h1>Obesidade (graus 1, 2 e 3)</h1>
+              <h2>Obesidade grau 1:</h2>
+                <p class="OG1" id="OG1">Nesta fase a pessoa passa a ser considerada obesa, ou seja, é considerada uma “doença”, pois a obesidade pode vir a desencadear uma série de problemas.
+                Nesta etapa, a simples prática de exercícios esporadicamente (sair do sedentarismo) já não é mais suficiente, é preciso estabelecer uma rotina de exercícios.                
+                Além disso, iniciar uma reeducação alimentar é fundamental.</p>
+              <h2>Obesidade grau 2:</h2>
+                <p class="OG2" id="OG2">O 2º grau de obesidade corresponde ao IMC 35 a 39,9. Neste caso, a pessoa já está bem acima do peso e pode, inclusive, já apresentar sintomas de doenças relacionas em decorrência da obesidade.</p>
+                <p class="OG2" id="OG2">O tratamento desse quadro é dado através de mudanças no estilo de vida, associado ao tratamento multiprofissional com nutricionista, psicólogo e médico.</p>
+
+                <p class="OG2" id="OG2"> No caso da obesidade grau II, o uso de medicações para a perda de peso também é um método que pode ser proposto diante de avaliação e acompanhamento médico.</p>
+              <h2> Obesidade grau 3:</h2>
+                <p class="OG3" id="OG3">O último grau de obesidade é o 3, e acredite, nesta fase sua força de vontade tem de ser absurda. Dependendo das suas condições, é provável que receba a orientação de realizar uma cirurgia. Mesmo que difícil a reversão da obesidade grau 3, um tratamento adequado pode solucionar ou diminuir, conseguindo chegar até o sobrepeso.</p>
+
+              
+        </div>
         <script src="./imc.js"></script>
-      </body>
-    </body>
-  </body>
-
+   </body>
 </html>
-
-<!--  function inicia(){
-            document.getElementById("painel").innerHTML=sessionStorage.nome;
-          }
-        window.addEventListener("load",inicia);-->
